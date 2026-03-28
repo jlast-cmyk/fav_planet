@@ -304,10 +304,10 @@ figure {
   margin: 0 0 1rem;
 }
 
-img,
+/* img,
 svg {
   vertical-align: middle;
-}
+} */
 
 table {
   caption-side: bottom;
@@ -2152,7 +2152,7 @@ textarea.form-control-lg {
   line-height: 1.5;
   color: #212529;
   background-color: #fff;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+  background-image: url(../assets/img/download.jpg);
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   background-size: 16px 12px;
@@ -2807,18 +2807,18 @@ textarea.form-control-lg {
   }
 }
 .btn:hover {
-  color: var(--bs-btn-hover-color);
-  background-color: var(--bs-btn-hover-bg);
+  color: darkgray;
+  background-color: var(--bs-list-group-action-active-color);
   border-color: var(--bs-btn-hover-border-color);
 }
 .btn-check + .btn:hover {
-  color: var(--bs-btn-color);
+  color: lightslategrey;
   background-color: var(--bs-btn-bg);
   border-color: var(--bs-btn-border-color);
 }
 .btn:focus-visible {
-  color: var(--bs-btn-hover-color);
-  background-color: var(--bs-btn-hover-bg);
+  color: whitesmoke;
+  background-color: lightslategrey;
   border-color: var(--bs-btn-hover-border-color);
   outline: 0;
   box-shadow: var(--bs-btn-focus-box-shadow);
@@ -10860,7 +10860,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background-image: url(../assets/img/stars.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
